@@ -12,43 +12,43 @@ import {
 const services = [
   {
     icon: Globe,
-    title: "Compra de Mídia Global",
-    description: "Investimento estratégico em mídia online e offline com alcance nacional e internacional.",
+    title: "Veiculação de Publicidade Mundial",
+    description: "Sua marca presente em qualquer lugar do mundo. Compramos e veiculamos mídia em escala global para expandir seu negócio.",
   },
   {
     icon: Target,
-    title: "Estratégia de Vendas",
-    description: "Metodologia própria para estruturar seu marketing e aumentar suas vendas de forma previsível.",
+    title: "Gestão de Tráfego Pago",
+    description: "Atraímos clientes qualificados para sua empresa através de anúncios no Google, Meta, TikTok e YouTube com foco em resultados.",
   },
   {
     icon: Megaphone,
-    title: "Publicidade Online & Offline",
-    description: "Campanhas integradas em todos os canais: Google, Meta, TikTok, TV, Rádio e OOH.",
+    title: "Publicidade Offline",
+    description: "TV, Rádio, Outdoor, Totens, Painéis de LED, Busdoor e mídia impressa. Sua marca onde seu cliente está.",
   },
   {
     icon: TrendingUp,
-    title: "Marketing Digital",
-    description: "Tráfego pago, SEO, social media e inbound marketing para gerar leads qualificados.",
+    title: "Estratégia de Vendas",
+    description: "Metodologia própria para estruturar seu marketing e aumentar o faturamento da sua empresa de forma previsível.",
   },
   {
     icon: Monitor,
     title: "Site por Assinatura",
-    description: "Websites profissionais com design premium e gestão contínua sem investimento inicial.",
+    description: "Websites profissionais para sua empresa com design premium e suporte contínuo. Sem investimento inicial alto.",
   },
   {
     icon: Users,
     title: "CRM por Assinatura",
-    description: "Sistema de gestão de relacionamento com clientes para aumentar sua conversão.",
+    description: "Sistema para gerenciar seus clientes e leads, aumentando suas vendas e organizando seu comercial.",
   },
   {
     icon: Video,
     title: "Produtora Audiovisual",
-    description: "Produção de vídeos comerciais, institucionais e conteúdo para redes sociais.",
+    description: "Produção de vídeos comerciais, institucionais e conteúdo para redes sociais que vendem sua marca.",
   },
   {
     icon: BarChart3,
-    title: "Análise de Dados",
-    description: "Relatórios completos e dashboards para acompanhar o ROI de suas campanhas.",
+    title: "Relatórios e Análises",
+    description: "Acompanhe o retorno do seu investimento com dashboards e relatórios claros sobre suas campanhas.",
   },
 ];
 
