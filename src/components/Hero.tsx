@@ -43,9 +43,9 @@ const Hero = () => {
 
           {/* Subheadline */}
           <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl animate-fade-up" style={{ animationDelay: "0.2s" }}>
-            Agência full-service 360° com compra de mídia nível global. 
-            Estratégia de vendas, marketing digital, produção audiovisual 
-            e muito mais para transformar seu negócio.
+            Gestão de tráfego pago, publicidade online e offline, 
+            produção audiovisual e estratégias de vendas que realmente 
+            funcionam. Multiplique o faturamento da sua empresa.
           </p>
 
           {/* CTAs */}
@@ -55,13 +55,13 @@ const Hero = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Button variant="hero" size="xl" className="w-full sm:w-auto">
+              <Button variant="hero" size="lg" className="w-full sm:w-auto">
                 Sessão Estratégica Grátis
                 <ArrowRight className="ml-2" />
               </Button>
             </a>
             <a href="#servicos">
-              <Button variant="heroOutline" size="xl" className="w-full sm:w-auto">
+              <Button variant="heroOutline" size="lg" className="w-full sm:w-auto">
                 <Play className="mr-2" />
                 Ver Serviços
               </Button>
