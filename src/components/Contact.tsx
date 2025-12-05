@@ -85,7 +85,7 @@ const Contact = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Button variant="hero" size="xl">
+            <Button variant="hero" size="lg">
               <Phone className="mr-2" />
               Agendar Sessão Estratégica
             </Button>

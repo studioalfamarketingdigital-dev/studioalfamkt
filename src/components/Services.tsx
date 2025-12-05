@@ -1,5 +1,4 @@
 import { 
-  Globe, 
   BarChart3, 
   Megaphone, 
   Video, 
@@ -11,19 +10,14 @@ import {
 
 const services = [
   {
-    icon: Globe,
-    title: "Veiculação de Publicidade Mundial",
-    description: "Sua marca presente em qualquer lugar do mundo. Compramos e veiculamos mídia em escala global para expandir seu negócio.",
-  },
-  {
     icon: Target,
     title: "Gestão de Tráfego Pago",
     description: "Atraímos clientes qualificados para sua empresa através de anúncios no Google, Meta, TikTok e YouTube com foco em resultados.",
   },
   {
     icon: Megaphone,
-    title: "Publicidade Offline",
-    description: "TV, Rádio, Outdoor, Totens, Painéis de LED, Busdoor e mídia impressa. Sua marca onde seu cliente está.",
+    title: "Publicidade Online e Offline",
+    description: "TV, Rádio, Outdoor, Totens, Painéis de LED, Busdoor, mídia impressa e compra de mídia a nível mundial. Sua marca onde seu cliente está.",
   },
   {
     icon: TrendingUp,

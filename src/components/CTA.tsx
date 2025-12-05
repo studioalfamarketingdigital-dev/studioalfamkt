@@ -49,7 +49,7 @@ const CTA = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Button variant="hero" size="xl" className="text-xl px-16">
+            <Button variant="hero" size="lg" className="px-12">
               Quero Minha Sessão Gratuita
               <ArrowRight className="ml-2 w-6 h-6" />
             </Button>
