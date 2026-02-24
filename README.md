@@ -1,22 +1,22 @@
-# Welcome to your Lovable project
+# Welcome studioalfamkt e project
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/b0d19cfe-d2ce-4d75-a192-e46817cdd444
+**URL**: https://www.studioalfamkt.shop
 
 ## How can I edit this code?
 
 There are several ways of editing your application.
 
-**Use Lovable**
+**studioalfamkt**
 
  and start prompting.
 
-Changes made via Lovable will be committed automatically to this repo.
+Changes made via studioalfamkt will be committed automatically to this repo.
 
 **Use your preferred IDE**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in studioalfamkt.
 
 The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
@@ -62,12 +62,12 @@ This project is built with:
 
 ## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/b0d19cfe-d2ce-4d75-a192-e46817cdd444) and click on Share -> Publish.
+Simply open [https://www.studioalfamkt.shop) and click on Share -> Publish.
 
-## Can I connect a custom domain to my Lovable project?
+## Can I connect a custom domain to my [studioalfamkt.shop) project?
 
 Yes, you can!
 
 To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Read more here: [Setting up a custom domain](https://www.studioalfamkt.shop)
