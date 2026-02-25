@@ -2,13 +2,12 @@
 
 ## Project info
 
-**URL**: [https://www.studioalfamkt.shop](https://lovable.dev/projects/b0d19cfe-d2ce-4d75-a192-e46817cdd444)
+**URL**: [https://www.studioalfamkt.shop](https://studioalfamkt.lovable.app/)
 
 ## How can I edit this code?
 
 There are several ways of editing your application.
 
-**studioalfamkt**
 
  and start prompting.
 
