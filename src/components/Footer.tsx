@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           {/* Logo & Description */}
           <div className="md:col-span-2">
-            <div className="bg-white/95 rounded-lg p-1.5 inline-block mb-4 shadow-sm"><img src={logoAlfa} alt="S.Alfa MKT Logo" className="h-10 w-auto" /></div>
+            <img src={logoAlfa} alt="S.Alfa MKT Logo" className="h-14 w-auto mb-4" />
             <p className="text-muted-foreground mb-4 max-w-sm">
               Agência de Marketing e Publicidade 360° Full-Service. 
               Há 7 anos fazendo negócios venderem mais.

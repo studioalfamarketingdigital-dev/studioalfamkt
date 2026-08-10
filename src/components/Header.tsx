@@ -31,9 +31,7 @@ const Header = () => {
     >
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <a href="#inicio" className="flex items-center gap-2">
-          <div className="bg-white/95 rounded-lg p-1.5 shadow-sm">
-            <img src={logoAlfa} alt="S.Alfa MKT Logo" className="h-10 w-auto" />
-          </div>
+          <img src={logoAlfa} alt="S.Alfa MKT Logo" className="h-14 w-auto" />
         </a>
 
         {/* Desktop Navigation */}
