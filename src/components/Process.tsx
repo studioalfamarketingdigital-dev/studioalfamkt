@@ -44,7 +44,7 @@ const Process = () => {
             Do diagnóstico ao <span className="text-gradient">resultado</span>
           </h2>
           <p className="text-muted-foreground text-lg">
-            Um processo validado que já gerou mais de R$1 milhão em vendas para nossos clientes.
+            Um processo validado que já gerou mais de R$10 milhões em vendas para nossos clientes.
           </p>
         </div>
 
