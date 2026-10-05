@@ -3,12 +3,12 @@ import { TrendingUp, Users, Award, Clock } from "lucide-react";
 const stats = [
   {
     icon: TrendingUp,
-    value: "+R$1 Milhão",
+    value: "+R$10 Milhões",
     label: "Em vendas geradas para nossos clientes",
   },
   {
     icon: Users,
-    value: "20+",
+    value: "27+",
     label: "Parceiros colaboradores especializados",
   },
   {
