@@ -3,7 +3,7 @@ import logoAlfa from "@/assets/logo-alfa.png";
 
 const benefits = [
   "Certificação Globo em compra de mídia",
-  "Equipe com mais de 20 especialistas",
+  "Equipe com mais de 27 especialistas",
   "Metodologia própria de vendas",
   "Atendimento personalizado",
   "Resultados mensuráveis e transparentes",
