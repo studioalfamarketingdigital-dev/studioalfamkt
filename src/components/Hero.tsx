@@ -29,7 +29,7 @@ const Hero = () => {
 
             {/* Subheadline */}
             <p className="text-lg md:text-xl text-muted-foreground max-w-xl animate-fade-up" style={{ animationDelay: "0.2s" }}>
-              Estratégia, tráfego pago e resultados reais para o seu negócio. Multiplique o faturamento da sua empresa em até 90 dias.
+              Estratégia, tráfego pago, publicidade online e offline, nacional e internacional, com resultados reais para o seu negócio. Multiplique o faturamento da sua empresa em até 90 dias.
             </p>
 
             {/* CTAs */}
@@ -55,7 +55,7 @@ const Hero = () => {
             {/* Stats Preview */}
             <div className="flex flex-wrap gap-8 pt-6 animate-fade-up" style={{ animationDelay: "0.4s" }}>
               <div>
-                <p className="text-2xl md:text-3xl font-black text-primary">+R$1M</p>
+                <p className="text-2xl md:text-3xl font-black text-primary">+R$10M</p>
                 <p className="text-sm text-muted-foreground">em vendas geradas</p>
               </div>
               <div>
@@ -63,7 +63,7 @@ const Hero = () => {
                 <p className="text-sm text-muted-foreground">anos de mercado</p>
               </div>
               <div>
-                <p className="text-2xl md:text-3xl font-black text-foreground">20+</p>
+                <p className="text-2xl md:text-3xl font-black text-foreground">27+</p>
                 <p className="text-sm text-muted-foreground">parceiros colaboradores</p>
               </div>
             </div>
