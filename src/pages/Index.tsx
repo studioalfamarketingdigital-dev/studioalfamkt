@@ -2,7 +2,6 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Process from "@/components/Process";
 import Services from "@/components/Services";
-import Portfolio from "@/components/Portfolio";
 import Videos from "@/components/Videos";
 import Results from "@/components/Results";
 import About from "@/components/About";
@@ -12,13 +11,12 @@ import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
 const Index = () => (
-  <div className="min-h-screen bg-background">
+  <div className="min-h-screen bg-[#080808] text-white">
     <Header />
-    <main>
+    <main className="bg-[#080808]">
       <Hero />
       <Process />
       <Services />
-      <Portfolio />
       <Videos />
       <Results />
       <About />
