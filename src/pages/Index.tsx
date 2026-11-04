@@ -2,32 +2,32 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Process from "@/components/Process";
 import Services from "@/components/Services";
+import Portfolio from "@/components/Portfolio";
+import Videos from "@/components/Videos";
 import Results from "@/components/Results";
-import Testimonials from "@/components/Testimonials";
 import About from "@/components/About";
 import FAQ from "@/components/FAQ";
 import CTA from "@/components/CTA";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
-const Index = () => {
-  return (
-    <div className="min-h-screen bg-background">
-      <Header />
-      <main>
-        <Hero />
-        <Process />
-        <Services />
-        <Results />
-        <Testimonials />
-        <About />
-        <FAQ />
-        <CTA />
-        <Contact />
-      </main>
-      <Footer />
-    </div>
-  );
-};
+const Index = () => (
+  <div className="min-h-screen bg-background">
+    <Header />
+    <main>
+      <Hero />
+      <Process />
+      <Services />
+      <Portfolio />
+      <Videos />
+      <Results />
+      <About />
+      <FAQ />
+      <CTA />
+      <Contact />
+    </main>
+    <Footer />
+  </div>
+);
 
 export default Index;
