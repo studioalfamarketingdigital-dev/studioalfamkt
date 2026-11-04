@@ -3,8 +3,8 @@ import { Play, Youtube } from "lucide-react";
 const videos = [
   {
     id: "EYr-Sstyz7Y",
-    title: "Studio Alfa MKT — vídeo institucional",
-    description: "Conheça um pouco mais do nosso trabalho, posicionamento e visão de comunicação.",
+    title: "Vídeo da Studio Alfa MKT",
+    description: "Assista ao conteúdo publicado pela Studio Alfa MKT no YouTube.",
   },
 ];
 
