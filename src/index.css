@@ -8,36 +8,25 @@
   :root {
     --background: 0 0% 100%;
     --foreground: 0 0% 10%;
-
     --card: 0 0% 100%;
     --card-foreground: 0 0% 10%;
-
     --popover: 0 0% 100%;
     --popover-foreground: 0 0% 10%;
-
     --primary: 0 84% 50%;
     --primary-foreground: 0 0% 100%;
     --primary-glow: 0 84% 60%;
-
     --secondary: 0 0% 96%;
     --secondary-foreground: 0 0% 10%;
-
     --muted: 0 0% 96%;
     --muted-foreground: 0 0% 40%;
-
     --accent: 0 84% 50%;
     --accent-foreground: 0 0% 100%;
-
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
-
     --border: 0 0% 90%;
     --input: 0 0% 90%;
     --ring: 0 84% 50%;
-
     --radius: 0.75rem;
-
-    /* Custom tokens */
     --gradient-primary: linear-gradient(135deg, hsl(0 84% 50%), hsl(0 84% 35%));
     --gradient-glow: radial-gradient(ellipse at center, hsl(0 84% 50% / 0.12), transparent 70%);
     --shadow-glow: 0 0 60px hsl(0 84% 50% / 0.25);
@@ -48,21 +37,24 @@
     --background: 0 0% 5%;
     --foreground: 0 0% 98%;
   }
-}
 
-@layer base {
-  * {
-    @apply border-border;
-  }
+  * { @apply border-border; }
 
   html {
     scroll-behavior: smooth;
+    scroll-padding-top: 5.5rem;
   }
 
   body {
     @apply bg-background text-foreground font-sans antialiased;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
+    min-width: 320px;
+    overflow-x: clip;
   }
+
+  img, video, iframe { max-width: 100%; }
+  img { height: auto; }
+  button, a { -webkit-tap-highlight-color: transparent; }
 }
 
 @layer utilities {
@@ -70,91 +62,42 @@
     @apply bg-clip-text text-transparent;
     background-image: var(--gradient-primary);
   }
-
-  .glow-red {
-    box-shadow: var(--shadow-glow);
-  }
-
-  .card-glow {
-    box-shadow: var(--shadow-card);
-  }
-
-  .animate-float {
-    animation: float 6s ease-in-out infinite;
-  }
-
-  .animate-pulse-glow {
-    animation: pulse-glow 2s ease-in-out infinite;
-  }
-
-  .animate-fade-up {
-    animation: fade-up 0.6s ease-out forwards;
-  }
-
-  .animate-fade-in {
-    animation: fade-in 0.8s ease-out forwards;
-  }
-
-  .animate-scale-in {
-    animation: scale-in 0.5s ease-out forwards;
-  }
+  .glow-red { box-shadow: var(--shadow-glow); }
+  .card-glow { box-shadow: var(--shadow-card); }
+  .animate-float { animation: float 6s ease-in-out infinite; }
+  .animate-pulse-glow { animation: pulse-glow 2s ease-in-out infinite; }
+  .animate-fade-up { animation: fade-up 0.6s ease-out forwards; }
+  .animate-fade-in { animation: fade-in 0.8s ease-out forwards; }
+  .animate-scale-in { animation: scale-in 0.5s ease-out forwards; }
 }
 
 @keyframes float {
-  0%, 100% { transform: translateY(0px); }
-  50% { transform: translateY(-20px); }
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-14px); }
 }
-
 @keyframes pulse-glow {
-  0%, 100% { 
-    box-shadow: 0 0 20px hsl(0 84% 50% / 0.4);
-  }
-  50% { 
-    box-shadow: 0 0 40px hsl(0 84% 50% / 0.6);
-  }
+  0%, 100% { box-shadow: 0 0 20px hsl(0 84% 50% / 0.4); }
+  50% { box-shadow: 0 0 40px hsl(0 84% 50% / 0.6); }
 }
-
 @keyframes fade-up {
-  from {
-    opacity: 0;
-    transform: translateY(30px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+  from { opacity: 0; transform: translateY(24px); }
+  to { opacity: 1; transform: translateY(0); }
 }
-
 @keyframes fade-in {
   from { opacity: 0; }
   to { opacity: 1; }
 }
-
 @keyframes scale-in {
-  from {
-    opacity: 0;
-    transform: scale(0.9);
-  }
-  to {
-    opacity: 1;
-    transform: scale(1);
-  }
+  from { opacity: 0; transform: scale(0.96); }
+  to { opacity: 1; transform: scale(1); }
 }
 
-/* Scrollbar styling */
-::-webkit-scrollbar {
-  width: 8px;
-}
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: hsl(var(--background)); }
+::-webkit-scrollbar-thumb { background: hsl(var(--primary)); border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: hsl(var(--primary-glow)); }
 
-::-webkit-scrollbar-track {
-  background: hsl(var(--background));
-}
-
-::-webkit-scrollbar-thumb {
-  background: hsl(var(--primary));
-  border-radius: 4px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: hsl(var(--primary-glow));
+@media (max-width: 640px) {
+  section[id] { scroll-margin-top: 5rem; }
+  .container { max-width: 100%; }
 }
