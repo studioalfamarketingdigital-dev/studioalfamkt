@@ -10,7 +10,7 @@ const Footer = () => (
           <p className="text-muted-foreground mb-5 max-w-sm">Estratégia, publicidade e tecnologia conectadas para aproximar marcas, pessoas e oportunidades de negócio.</p>
           <div className="flex gap-3">
             <a href="https://wa.me/5561992380077" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center hover:bg-primary/20 transition-colors"><Phone className="w-5 h-5 text-primary" /></a>
-            <a href="https://instagram.com/s.alfamkt" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center hover:bg-primary/20 transition-colors"><Instagram className="w-5 h-5 text-primary" /></a>
+            <a href="https://instagram.com/studioalfamkt" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center hover:bg-primary/20 transition-colors"><Instagram className="w-5 h-5 text-primary" /></a>
           </div>
         </div>
         <div>
