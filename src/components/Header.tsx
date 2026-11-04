@@ -8,89 +8,68 @@ const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 50);
-    };
-    window.addEventListener("scroll", handleScroll);
+    const handleScroll = () => setIsScrolled(window.scrollY > 24);
+    window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   const navLinks = [
     { href: "#inicio", label: "Início" },
     { href: "#servicos", label: "Serviços" },
+    { href: "#portfolio", label: "Portfólio" },
     { href: "#resultados", label: "Resultados" },
     { href: "#videos", label: "Vídeos" },
     { href: "#sobre", label: "Sobre" },
     { href: "#contato", label: "Contato" },
   ];
 
+  const closeMenu = () => setIsMobileMenuOpen(false);
+
   return (
-    <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? "bg-background/95 backdrop-blur-md border-b border-border" : "bg-transparent"
-      }`}
-    >
-      <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-        <a href="#inicio" className="flex items-center gap-2">
-          <img src={logoAlfa} alt="S.Alfa MKT Logo" className="h-14 w-auto" />
+    <header className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 ${
+      isScrolled || isMobileMenuOpen
+        ? "bg-background/95 backdrop-blur-xl border-b border-border shadow-sm"
+        : "bg-background/75 backdrop-blur-md"
+    }`}>
+      <div className="container mx-auto px-4 sm:px-6 h-[76px] flex items-center justify-between gap-4">
+        <a href="#inicio" onClick={closeMenu} className="flex items-center shrink-0" aria-label="Studio Alfa MKT - início">
+          <img src={logoAlfa} alt="S.Alfa MKT" className="h-11 sm:h-12 w-auto max-w-[190px] object-contain" />
         </a>
 
-        {/* Desktop Navigation */}
-        <nav className="hidden md:flex items-center gap-8">
+        <nav aria-label="Navegação principal" className="hidden lg:flex items-center gap-5 xl:gap-7">
           {navLinks.map((link) => (
-            <a
-              key={link.href}
-              href={link.href}
-              className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors duration-300"
-            >
+            <a key={link.href} href={link.href} className="whitespace-nowrap text-[13px] xl:text-sm font-semibold text-foreground/75 hover:text-primary transition-colors">
               {link.label}
             </a>
           ))}
         </nav>
 
-        <div className="hidden md:flex items-center gap-4">
-          <a
-            href="https://wa.me/5561992380077"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Button variant="hero" size="default">
-              Fale Conosco
-            </Button>
-          </a>
-        </div>
+        <a href="https://wa.me/5561992380077" target="_blank" rel="noopener noreferrer" className="hidden lg:block shrink-0">
+          <Button variant="hero" size="default">Fale Conosco</Button>
+        </a>
 
-        {/* Mobile Menu Button */}
         <button
-          className="md:hidden text-foreground p-2"
-          onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+          type="button"
+          className="lg:hidden inline-flex items-center justify-center w-11 h-11 rounded-lg text-foreground hover:bg-secondary transition-colors"
+          onClick={() => setIsMobileMenuOpen((open) => !open)}
+          aria-label={isMobileMenuOpen ? "Fechar menu" : "Abrir menu"}
+          aria-expanded={isMobileMenuOpen}
+          aria-controls="mobile-navigation"
         >
-          {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+          {isMobileMenuOpen ? <X size={23} /> : <Menu size={23} />}
         </button>
       </div>
 
-      {/* Mobile Menu */}
       {isMobileMenuOpen && (
-        <div className="md:hidden bg-background/98 backdrop-blur-md border-b border-border">
-          <nav className="container mx-auto px-4 py-4 flex flex-col gap-4">
+        <div id="mobile-navigation" className="lg:hidden border-t border-border bg-background/98 backdrop-blur-xl max-h-[calc(100dvh-76px)] overflow-y-auto">
+          <nav aria-label="Navegação móvel" className="container mx-auto px-4 sm:px-6 py-4 flex flex-col gap-1">
             {navLinks.map((link) => (
-              <a
-                key={link.href}
-                href={link.href}
-                className="text-foreground/80 hover:text-primary transition-colors py-2"
-                onClick={() => setIsMobileMenuOpen(false)}
-              >
+              <a key={link.href} href={link.href} onClick={closeMenu} className="rounded-lg px-3 py-3 text-sm font-semibold text-foreground/85 hover:bg-secondary hover:text-primary transition-colors">
                 {link.label}
               </a>
             ))}
-            <a
-              href="https://wa.me/5561992380077"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Button variant="hero" className="w-full mt-2">
-                Fale Conosco
-              </Button>
+            <a href="https://wa.me/5561992380077" target="_blank" rel="noopener noreferrer" onClick={closeMenu} className="pt-3">
+              <Button variant="hero" className="w-full">Fale Conosco</Button>
             </a>
           </nav>
         </div>
