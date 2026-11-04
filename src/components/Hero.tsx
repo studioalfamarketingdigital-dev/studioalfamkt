@@ -18,7 +18,7 @@ const Hero = () => (
             Seu negócio, de <span className="text-primary">resultado.</span>
           </h1>
           <p className="mt-7 max-w-xl text-base leading-relaxed text-muted-foreground sm:text-lg">
-            Estratégia, criação, mídia, audiovisual e tecnologia trabalhando juntos para colocar sua empresa na frente das pessoas certas — no digital e fora dele.
+            Somos um hub completo de comunicação, marketing e publicidade: reunimos estratégia, criação, mídia, audiovisual e tecnologia para conectar sua marca às pessoas certas, no Brasil e em outros mercados.
           </p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
             <a href="https://wa.me/5561992380077?text=Olá! Quero um diagnóstico estratégico para minha empresa." target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
@@ -40,7 +40,7 @@ const Hero = () => (
             <div className="h-10 w-px bg-border" />
             <div><p className="text-3xl font-black tracking-tight text-foreground">360<span className="text-primary">°</span></p><p className="mt-1 text-[10px] font-bold uppercase tracking-[.15em] text-muted-foreground">Visão integrada</p></div>
             <div className="h-10 w-px bg-border" />
-            <div><p className="text-3xl font-black tracking-tight text-foreground">DF <span className="text-primary">+</span> GO</p><p className="mt-1 text-[10px] font-bold uppercase tracking-[.15em] text-muted-foreground">Atuação regional</p></div>
+            <div><p className="text-2xl font-black tracking-tight text-foreground">BR <span className="text-primary">+</span> Mundo</p><p className="mt-1 text-[10px] font-bold uppercase tracking-[.15em] text-muted-foreground">Atuação nacional e internacional</p></div>
           </div>
         </div>
         <div className="relative mx-auto w-full min-w-0 max-w-2xl lg:max-w-none">
@@ -50,12 +50,12 @@ const Hero = () => (
             <img src={heroTeam} alt="Estrutura criativa e produção da S.Alfa MKT" className="aspect-[4/4.25] w-full object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/5 to-black/10" />
             <div className="absolute inset-x-0 bottom-0 p-6 sm:p-8">
-              <p className="text-[10px] font-extrabold uppercase tracking-[.24em] text-white/65">Uma operação. Múltiplas frentes.</p>
+              <p className="text-[10px] font-extrabold uppercase tracking-[.24em] text-white/75">Uma operação. Múltiplas frentes.</p>
               <p className="mt-2 max-w-sm text-2xl font-black leading-tight text-white sm:text-3xl">Ideia boa é ideia que chega ao mercado.</p>
             </div>
           </div>
           <div className="relative z-20 -mt-4 ml-auto mr-3 w-fit rounded-xl border border-white/10 bg-[#111] px-5 py-4 shadow-2xl sm:absolute sm:-bottom-6 sm:-left-8 sm:ml-0 sm:mr-0">
-            <p className="text-[10px] font-bold uppercase tracking-[.18em] text-white/50">S.Alfa MKT</p>
+            <p className="text-[10px] font-bold uppercase tracking-[.18em] text-white/75">S.Alfa MKT</p>
             <p className="mt-1 text-sm font-extrabold text-white">Estratégia + criação + performance</p>
           </div>
         </div>
