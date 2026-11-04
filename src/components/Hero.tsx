@@ -44,11 +44,11 @@ const Hero = () => {
             </div>
 
             <div className="flex flex-wrap gap-8 pt-5 border-t border-border">
-              <div><p className="text-2xl md:text-3xl font-black text-primary">+R$5M</p><p className="text-sm text-muted-foreground">em vendas geradas*</p></div>
+              <div><p className="text-2xl md:text-3xl font-black text-primary">+R$10M</p><p className="text-sm text-muted-foreground">em vendas geradas*</p></div>
               <div><p className="text-2xl md:text-3xl font-black text-foreground">7+</p><p className="text-sm text-muted-foreground">anos de atuação</p></div>
               <div><p className="text-2xl md:text-3xl font-black text-foreground">360°</p><p className="text-sm text-muted-foreground">visão de comunicação</p></div>
             </div>
-            <p className="text-xs text-muted-foreground">*Resultado acumulado informado pela agência. Os resultados variam conforme o projeto e o investimento.</p>
+            <p className="text-xs text-muted-foreground">*Volume acumulado informado pela agência. Os resultados variam conforme o projeto e o investimento.</p>
           </div>
 
           <div className="relative">
