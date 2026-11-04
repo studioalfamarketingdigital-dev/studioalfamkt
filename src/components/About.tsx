@@ -18,8 +18,8 @@ const About = () => (
         <div>
           <span className="section-kicker">Quem somos</span>
           <h2 className="section-title mt-4">Não somos apenas fornecedores. Somos parte da <span className="text-gradient">sua estratégia.</span></h2>
-          <p className="mt-7 text-base leading-relaxed text-muted-foreground sm:text-lg">A S.Alfa MKT é uma agência de comunicação, marketing e publicidade 360°. Há mais de 7 anos, conectamos marcas, pessoas e ideias por meio de estratégia, criatividade e execução.</p>
-          <p className="mt-4 text-sm leading-relaxed text-muted-foreground sm:text-base">Nosso trabalho começa entendendo o negócio, o público e a jornada de compra. Só então definimos os canais, formatos e ações que fazem sentido — do ambiente digital à presença física.</p>
+          <p className="mt-7 text-base leading-relaxed text-muted-foreground sm:text-lg">A S.Alfa MKT é um hub de comunicação, marketing e publicidade 360°. Integramos diferentes especialidades, parceiros, canais e tecnologias em uma estrutura coordenada para atender empresas e marcas no Brasil e no exterior. Há mais de 7 anos, conectamos estratégia, criatividade e execução.</p>
+          <p className="mt-4 text-sm leading-relaxed text-muted-foreground sm:text-base">Mais do que entregar serviços isolados, conectamos as frentes necessárias para cada projeto: estratégia, marca, campanhas, mídia, conteúdo, audiovisual, soluções digitais e tecnologia. Nosso trabalho começa entendendo o negócio, o público e a jornada de compra — e só então desenhamos a operação.</p>
           <div className="mt-8 grid gap-4 sm:grid-cols-2">
             {principles.map((item) => <div key={item} className="flex items-start gap-3"><CheckCircle className="mt-0.5 h-5 w-5 shrink-0 text-primary" /><span className="text-sm leading-relaxed text-foreground/85">{item}</span></div>)}
           </div>
