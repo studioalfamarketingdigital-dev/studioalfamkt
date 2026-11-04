@@ -1,70 +1,51 @@
-import { Instagram, Phone } from "lucide-react";
+import { Instagram, Phone, ArrowUpRight } from "lucide-react";
 import logoAlfa from "@/assets/logo-alfa.png";
 
-const Footer = () => {
-  return (
-    <footer className="bg-card border-t border-border py-12">
-      <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
-          {/* Logo & Description */}
-          <div className="md:col-span-2">
-            <img src={logoAlfa} alt="S.Alfa MKT Logo" className="h-14 w-auto mb-4" />
-            <p className="text-muted-foreground mb-4 max-w-sm">
-              Agência de Marketing e Publicidade 360° Full-Service. 
-              Há 7 anos fazendo negócios venderem mais.
-            </p>
-            <div className="flex gap-4">
-              <a
-                href="https://wa.me/5561992380077"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center hover:bg-primary/20 transition-colors"
-              >
-                <Phone className="w-5 h-5 text-primary" />
-              </a>
-              <a
-                href="https://instagram.com/s.alfamkt"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center hover:bg-primary/20 transition-colors"
-              >
-                <Instagram className="w-5 h-5 text-primary" />
-              </a>
-            </div>
-          </div>
-
-          {/* Services */}
-          <div>
-            <h4 className="font-bold mb-4">Serviços</h4>
-            <ul className="space-y-2 text-sm text-muted-foreground">
-              <li>Compra de Mídia</li>
-              <li>Marketing Digital</li>
-              <li>Produção Audiovisual</li>
-              <li>Site por Assinatura</li>
-              <li>CRM por Assinatura</li>
-            </ul>
-          </div>
-
-          {/* Contact */}
-          <div>
-            <h4 className="font-bold mb-4">Contato</h4>
-            <ul className="space-y-2 text-sm text-muted-foreground">
-              <li>(61) 99238-0077</li>
-              <li>@s.alfamkt</li>
-              <li>Brasília - DF</li>
-              <li>Luziânia - GO</li>
-            </ul>
+const Footer = () => (
+  <footer className="bg-card border-t border-border py-14">
+    <div className="container mx-auto px-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-10 mb-12">
+        <div className="lg:col-span-2">
+          <img src={logoAlfa} alt="S.Alfa MKT" className="h-14 w-auto mb-5" />
+          <p className="text-muted-foreground mb-5 max-w-sm">
+            Estratégia, publicidade e tecnologia conectadas para aproximar marcas, pessoas e oportunidades de negócio.
+          </p>
+          <div className="flex gap-3">
+            <a href="https://wa.me/5561992380077" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center hover:bg-primary/20 transition-colors"><Phone className="w-5 h-5 text-primary" /></a>
+            <a href="https://instagram.com/s.alfamkt" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center hover:bg-primary/20 transition-colors"><Instagram className="w-5 h-5 text-primary" /></a>
           </div>
         </div>
-
-        {/* Copyright */}
-        <div className="border-t border-border pt-8 text-center text-sm text-muted-foreground">
-          <p>© {new Date().getFullYear()} S.Alfa MKT. Todos os direitos reservados.</p>
-          <p className="mt-2">Certificada pela Globo • Agência Full-Service 360°</p>
+        <div>
+          <h4 className="font-bold mb-4">Navegação</h4>
+          <ul className="space-y-3 text-sm text-muted-foreground">
+            <li><a className="hover:text-primary" href="#servicos">Soluções</a></li>
+            <li><a className="hover:text-primary" href="#portfolio">Portfólio</a></li>
+            <li><a className="hover:text-primary" href="#resultados">Resultados</a></li>
+            <li><a className="hover:text-primary" href="#sobre">Quem somos</a></li>
+            <li><a className="hover:text-primary" href="#contato">Contato</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 className="font-bold mb-4">Soluções</h4>
+          <ul className="space-y-3 text-sm text-muted-foreground">
+            <li>Estratégia e assessoria</li><li>Tráfego e mídia</li><li>Publicidade online e offline</li><li>Produção audiovisual</li><li>Sites e presença digital</li><li>CRM e automação</li>
+          </ul>
+        </div>
+        <div>
+          <h4 className="font-bold mb-4">Ecossistema S.Alfa</h4>
+          <ul className="space-y-4 text-sm">
+            <li><a href="https://midiamap.studioalfamkt.online" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-primary inline-flex items-center gap-1">MídiaMap <ArrowUpRight className="w-3 h-3" /></a><p className="text-xs text-muted-foreground">Plataforma de mídia e inventário OOH</p></li>
+            <li><a href="https://sites.studioalfamkt.online" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-primary inline-flex items-center gap-1">Studio Alfa Sites <ArrowUpRight className="w-3 h-3" /></a><p className="text-xs text-muted-foreground">Websites e presença digital por assinatura</p></li>
+            <li><span className="text-foreground">Via</span><p className="text-xs text-muted-foreground">Iniciativa de conectividade e eSIM</p></li>
+          </ul>
         </div>
       </div>
-    </footer>
-  );
-};
+      <div className="border-t border-border pt-7 flex flex-col md:flex-row justify-between gap-3 text-xs text-muted-foreground">
+        <p>© {new Date().getFullYear()} Studio Alfa MKT. Todos os direitos reservados.</p>
+        <p>Marcas, produtos e iniciativas do ecossistema Studio Alfa.</p>
+      </div>
+    </div>
+  </footer>
+);
 
 export default Footer;
