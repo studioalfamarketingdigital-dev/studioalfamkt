@@ -1,46 +1,21 @@
-import { TrendingUp, Radio, Award, Clock } from "lucide-react";
+import { Target, Radio, Video, Clock, ArrowUpRight } from "lucide-react";
 
-const stats = [
-  { icon: TrendingUp, value: "+R$10 milhões", label: "Em vendas geradas para clientes, segundo levantamento da agência" },
-  { icon: Radio, value: "360°", label: "Estratégia, publicidade, conteúdo, mídia e tecnologia" },
-  { icon: Award, value: "Globo", label: "Certificação em compra de mídia" },
-  { icon: Clock, value: "7+ anos", label: "De experiência em comunicação e marketing" },
+const pillars = [
+  { icon: Target, value: "Estratégia", label: "Objetivos claros antes de escolher canais e formatos." },
+  { icon: Radio, value: "360°", label: "Digital, mídia e publicidade conectados em uma só visão." },
+  { icon: Video, value: "Criação", label: "Conteúdo e campanhas com identidade e intenção." },
+  { icon: Clock, value: "7+ anos", label: "Experiência acumulada em comunicação e marketing." },
 ];
 
 const Results = () => (
-  <section id="resultados" className="py-24 relative overflow-hidden">
-    <div className="absolute inset-0 bg-gradient-to-b from-background via-primary/5 to-background" />
-    <div className="absolute right-0 top-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-primary/10 rounded-full blur-[120px]" />
-    <div className="container mx-auto px-4 relative z-10">
-      <div className="text-center max-w-3xl mx-auto mb-16">
-        <span className="text-primary font-semibold uppercase tracking-wider text-sm">Experiência que se transforma em ação</span>
-        <h2 className="text-3xl md:text-5xl font-black mt-4 mb-6">Marketing conectado a <span className="text-gradient">resultado de negócio</span></h2>
-        <p className="text-muted-foreground text-lg">Não olhamos apenas para alcance e curtidas. Planejamos cada ponto de contato para fortalecer marcas, gerar oportunidades e apoiar vendas.</p>
+  <section id="resultados" className="relative overflow-hidden bg-[#080808] py-20 sm:py-24 lg:py-28">
+    <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_50%_50%,hsl(0_82%_52%/.09),transparent_65%)]" />
+    <div className="container relative z-10 mx-auto px-4 sm:px-6">
+      <div className="mx-auto mb-14 max-w-3xl text-center"><span className="section-kicker">Como pensamos</span><h2 className="section-title mt-4 text-white">Marketing não é um conjunto de posts. É uma <span className="text-gradient">operação de negócio.</span></h2><p className="mt-6 text-base leading-relaxed text-white/60">Cada ação precisa ter um papel na jornada do consumidor: despertar interesse, construir confiança, gerar oportunidades e fortalecer o relacionamento.</p></div>
+      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        {pillars.map((item) => <div key={item.value} className="rounded-2xl border border-white/10 bg-[#141414] p-6 text-center text-white shadow-[0_12px_35px_rgba(0,0,0,.3)]"><div className="mx-auto mb-5 flex h-14 w-14 items-center justify-center rounded-2xl bg-primary/10"><item.icon className="h-7 w-7 text-primary" /></div><h3 className="text-2xl font-black text-white">{item.value}</h3><p className="mt-3 text-sm leading-relaxed text-white/60">{item.label}</p></div>)}
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-        {stats.map((stat) => (
-          <div key={stat.label} className="text-center group">
-            <div className="w-20 h-20 rounded-2xl bg-primary/10 flex items-center justify-center mx-auto mb-6 group-hover:glow-red transition-all duration-300">
-              <stat.icon className="w-10 h-10 text-primary" />
-            </div>
-            <p className="text-3xl md:text-4xl font-black text-foreground mb-2">{stat.value}</p>
-            <p className="text-muted-foreground text-sm">{stat.label}</p>
-          </div>
-        ))}
-      </div>
-      <p className="text-center text-xs text-muted-foreground mt-8">O volume de vendas é um indicador acumulado informado pela agência. Deve ser respaldado por registros internos e não representa garantia de resultados futuros.</p>
-      <div className="mt-20 bg-card rounded-2xl p-8 md:p-12 border border-border relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-primary/10 to-transparent" />
-        <div className="relative z-10 flex flex-col md:flex-row items-center justify-between gap-6">
-          <div>
-            <h3 className="text-2xl md:text-3xl font-bold mb-2">Vamos encontrar oportunidades no seu negócio?</h3>
-            <p className="text-muted-foreground">Converse com a equipe e receba um primeiro direcionamento estratégico.</p>
-          </div>
-          <a href="https://wa.me/5561992380077?text=Olá! Quero conversar sobre oportunidades de crescimento para minha empresa." target="_blank" rel="noopener noreferrer" className="shrink-0">
-            <button className="bg-primary text-primary-foreground font-bold uppercase tracking-wider px-8 py-4 rounded-lg hover:scale-105 transition-transform">Falar com a Studio Alfa</button>
-          </a>
-        </div>
-      </div>
+      <div className="mt-10 flex flex-col items-start justify-between gap-5 rounded-2xl border border-white/10 bg-[#151515] p-7 sm:flex-row sm:items-center sm:p-9"><div><p className="text-xl font-extrabold text-white sm:text-2xl">Vamos encontrar o próximo passo da sua empresa?</p><p className="mt-2 text-sm text-white/55">Uma conversa objetiva para entender o cenário e identificar oportunidades.</p></div><a href="https://wa.me/5561992380077?text=Olá! Quero conversar sobre o marketing da minha empresa." target="_blank" rel="noopener noreferrer" className="inline-flex shrink-0 items-center gap-2 rounded-lg bg-primary px-6 py-4 text-sm font-extrabold text-white transition hover:bg-red-600">Falar com a S.Alfa <ArrowUpRight className="h-4 w-4" /></a></div>
     </div>
   </section>
 );
