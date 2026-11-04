@@ -16,7 +16,7 @@ const Services = () => (
     <div className="container relative z-10 mx-auto px-4 sm:px-6">
       <div className="mb-12 flex flex-col justify-between gap-6 lg:mb-16 lg:flex-row lg:items-end">
         <div className="max-w-3xl"><span className="section-kicker">O que fazemos</span><h2 className="section-title mt-4 text-white">Seu negócio não precisa de ações soltas. Precisa de <span className="text-gradient">direção.</span></h2></div>
-        <p className="max-w-md text-sm leading-relaxed text-white/65 sm:text-base">Integramos diferentes especialidades em um plano coerente com o momento, os objetivos e a realidade da sua empresa.</p>
+        <p className="max-w-md text-sm leading-relaxed text-white/65 sm:text-base">Um hub completo, com frentes especializadas que trabalham de forma integrada. Coordenamos as soluções conforme o desafio, o mercado e os objetivos de cada marca.</p>
       </div>
       <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
         {services.map((service) => (
