@@ -34,12 +34,16 @@ const Portfolio = () => (
                 alt={project.alt}
                 loading="lazy"
                 className="absolute inset-0 w-full h-full object-cover"
+                onLoad={(event) => {
+                  const fallback = event.currentTarget.parentElement?.querySelector("[data-image-fallback]") as HTMLElement | null;
+                  if (fallback) fallback.style.display = "none";
+                }}
                 onError={(event) => { event.currentTarget.style.display = "none"; }}
               />
-              <div className="relative z-0 text-center px-6">
+              <div data-image-fallback className="relative z-0 text-center px-6">
                 <ImageIcon className="w-10 h-10 text-white/60 mx-auto mb-3" />
                 <p className="text-white font-bold text-xl">{project.name}</p>
-                <p className="text-white/60 text-xs mt-1">Imagem do projeto será adicionada nesta área</p>
+                <p className="text-white/60 text-xs mt-1">Adicione a imagem real do projeto em public/portfolio/</p>
               </div>
               <span className="absolute top-4 left-4 rounded-full bg-black/60 text-white text-xs px-3 py-1">{project.category}</span>
             </div>
