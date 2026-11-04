@@ -1,7 +1,7 @@
 import { TrendingUp, Radio, Award, Clock } from "lucide-react";
 
 const stats = [
-  { icon: TrendingUp, value: "+R$5 milhões", label: "Em vendas geradas para clientes, segundo levantamento da agência" },
+  { icon: TrendingUp, value: "+R$10 milhões", label: "Em vendas geradas para clientes, segundo levantamento da agência" },
   { icon: Radio, value: "360°", label: "Estratégia, publicidade, conteúdo, mídia e tecnologia" },
   { icon: Award, value: "Globo", label: "Certificação em compra de mídia" },
   { icon: Clock, value: "7+ anos", label: "De experiência em comunicação e marketing" },
@@ -28,7 +28,7 @@ const Results = () => (
           </div>
         ))}
       </div>
-      <p className="text-center text-xs text-muted-foreground mt-8">O valor de vendas é um indicador acumulado informado pela agência, não uma garantia de faturamento futuro.</p>
+      <p className="text-center text-xs text-muted-foreground mt-8">O volume de vendas é um indicador acumulado informado pela agência. Deve ser respaldado por registros internos e não representa garantia de resultados futuros.</p>
       <div className="mt-20 bg-card rounded-2xl p-8 md:p-12 border border-border relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-primary/10 to-transparent" />
         <div className="relative z-10 flex flex-col md:flex-row items-center justify-between gap-6">
