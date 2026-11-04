@@ -16,7 +16,7 @@ const Footer = () => (
         <div>
           <h4 className="font-bold mb-4">Navegação</h4>
           <ul className="space-y-3 text-sm text-muted-foreground">
-            <li><a className="hover:text-primary" href="#servicos">Soluções</a></li><li><a className="hover:text-primary" href="#portfolio">Portfólio</a></li><li><a className="hover:text-primary" href="#resultados">Resultados</a></li><li><a className="hover:text-primary" href="#sobre">Quem somos</a></li><li><a className="hover:text-primary" href="#contato">Contato</a></li>
+            <li><a className="hover:text-primary" href="#servicos">Soluções</a></li><li><a className="hover:text-primary" href="#portfolio">Portfólio</a></li><li><a className="hover:text-primary" href="#resultados">Resultados</a></li><li><a className="hover:text-primary" href="#videos">Vídeos</a></li><li><a className="hover:text-primary" href="#sobre">Quem somos</a></li><li><a className="hover:text-primary" href="#contato">Contato</a></li>
           </ul>
         </div>
         <div>
