@@ -28,7 +28,7 @@ const Footer = () => (
           <ul className="space-y-4 text-sm">
             <li><a href="https://midiamap.studioalfamkt.online" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-primary inline-flex items-center gap-1">MídiaMap <ArrowUpRight className="w-3 h-3" /></a><p className="text-xs text-muted-foreground">Plataforma de mídia e inventário OOH</p></li>
             <li><a href="https://sites.studioalfamkt.online" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-primary inline-flex items-center gap-1">Studio Alfa Sites <ArrowUpRight className="w-3 h-3" /></a><p className="text-xs text-muted-foreground">Websites e presença digital por assinatura</p></li>
-            <li><span className="text-foreground font-semibold">Via</span><p className="text-xs text-muted-foreground">Iniciativa de conectividade e eSIM</p></li>
+            <li><span className="text-foreground font-semibold">Via</span><p className="text-xs text-muted-foreground">Iniciativa de conectividade e eSIM</p></li><li><span className="text-foreground font-semibold">Elev</span><p className="text-xs text-muted-foreground">Frente de educação e formação digital</p></li>
           </ul>
         </div>
       </div>
