@@ -20,6 +20,7 @@ const Hero = () => (
           <p className="mt-7 max-w-xl text-base leading-relaxed text-muted-foreground sm:text-lg">
             Somos um hub completo de comunicação, marketing e publicidade: reunimos estratégia, criação, mídia, audiovisual e tecnologia para conectar sua marca às pessoas certas, no Brasil e em outros mercados.
           </p>
+          <div className="mt-7 inline-flex max-w-xl flex-col rounded-2xl border border-primary/35 bg-primary/[.08] px-5 py-4 sm:flex-row sm:items-center sm:gap-4"><p className="text-3xl font-black tracking-tight text-white sm:text-4xl">+R$ 10 milhões</p><p className="max-w-xs text-xs font-bold uppercase leading-relaxed tracking-[.12em] text-white/75 sm:text-sm">em faturamento gerado para nossos clientes</p></div>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
             <a href="https://wa.me/5561992380077?text=Olá! Quero um diagnóstico estratégico para minha empresa." target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
               <Button variant="hero" size="lg" className="w-full sm:w-auto">Vamos conversar <ArrowRight className="ml-2" /></Button>
