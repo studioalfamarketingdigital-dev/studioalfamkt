@@ -15,5 +15,7 @@ User-agent: Google-Extended
 Allow: /
 User-agent: Bingbot
 Allow: /
+User-agent: DuckDuckBot
+Allow: /
 
 Sitemap: https://www.studioalfamkt.online/sitemap.xml
