@@ -1,4 +1,4 @@
-export type ArticleSection = { heading: string; paragraphs: string[]; bullets?: string[] };
+export type ArticleSection = { heading: string; paragraphs?: string[]; bullets?: string[] };
 export type Article = { slug: string; title: string; description: string; category: string; date: string; readTime: string; intro: string; sections: ArticleSection[]; keywords: string[] };
 
 export const articles: Article[] = [
