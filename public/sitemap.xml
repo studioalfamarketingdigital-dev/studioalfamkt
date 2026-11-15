@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-  <url>
-    <loc>https://www.studioalfamkt.online/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-    <image:image>
-      <image:loc>https://www.studioalfamkt.online/logo-studioalfamkt.png</image:loc>
-      <image:title>S.Alfa MKT — Hub de Comunicação, Marketing e Publicidade 360°</image:title>
-      <image:caption>Identidade visual oficial da S.Alfa MKT</image:caption>
-    </image:image>
-  </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://www.studioalfamkt.online/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://www.studioalfamkt.online/blog</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.studioalfamkt.online/blog/como-escolher-agencia-de-marketing</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.studioalfamkt.online/blog/trafego-pago-ou-marketing-organico</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.studioalfamkt.online/blog/site-que-gera-clientes</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.studioalfamkt.online/blog/seo-local-para-empresas</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.studioalfamkt.online/blog/planejamento-de-marketing-para-pequenas-empresas</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 </urlset>
