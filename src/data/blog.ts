@@ -1,0 +1,68 @@
+export type ArticleSection = { heading: string; paragraphs: string[]; bullets?: string[] };
+export type Article = { slug: string; title: string; description: string; category: string; date: string; readTime: string; intro: string; sections: ArticleSection[]; keywords: string[] };
+
+export const articles: Article[] = [
+{
+ slug:"como-escolher-agencia-de-marketing", title:"Como escolher uma agência de marketing para sua empresa",
+ description:"Entenda o que avaliar antes de contratar uma agência: estratégia, transparência, execução, indicadores e alinhamento comercial.",
+ category:"Estratégia", date:"2026-11-15", readTime:"6 min", keywords:["como escolher agência de marketing","agência de marketing","marketing para empresas"],
+ intro:"Escolher uma agência de marketing não deveria ser uma decisão baseada apenas em preço, quantidade de posts ou promessas de resultado. O parceiro certo precisa entender o negócio, conectar comunicação e vendas e explicar como o trabalho será acompanhado.",
+ sections:[
+ {heading:"Comece pelo problema do negócio",paragraphs:["Antes de comparar propostas, defina o que precisa mudar: aumentar oportunidades, melhorar a presença digital, lançar um produto, fortalecer a marca ou organizar a aquisição de clientes. Sem um objetivo claro, fica difícil avaliar se a solução proposta faz sentido.","Uma boa agência investiga público, oferta, concorrência, diferenciais e processo comercial antes de recomendar canais e formatos."]},
+ {heading:"Avalie estratégia e execução",paragraphs:["Peça para entender como o planejamento se transforma em entregas: quem produz, quem aprova, quais canais serão trabalhados e como as prioridades serão definidas. Uma apresentação bonita não substitui um processo consistente.","Verifique se a agência consegue integrar conteúdo, mídia, criação, site e atendimento quando essas frentes forem necessárias ao projeto."]},
+ {heading:"Exija indicadores compreensíveis",paragraphs:["Relatórios devem mostrar mais do que curtidas. Alcance, cliques, custo por oportunidade, conversões e qualidade dos contatos ajudam a entender se o investimento está contribuindo para o negócio.","Nenhuma agência séria consegue garantir vendas sem considerar oferta, preço, concorrência, verba e capacidade de atendimento. Desconfie de promessas absolutas."]},
+ {heading:"Observe transparência e parceria",paragraphs:["Escopo, prazos, investimento, responsabilidades, propriedade das contas e frequência de reuniões precisam estar claros. A empresa deve manter acesso aos seus ativos digitais e entender o que está sendo feito.","A melhor contratação é aquela em que expectativa, capacidade de execução e objetivo comercial estão alinhados."]},
+ {heading:"Próximo passo",paragraphs:["Organize seus objetivos e converse com profissionais que façam perguntas sobre o negócio antes de oferecer um pacote pronto. A S.Alfa MKT trabalha com comunicação integrada, estratégia, mídia, conteúdo e soluções digitais conforme a necessidade de cada empresa."]}]
+},
+{
+ slug:"trafego-pago-ou-marketing-organico",title:"Tráfego pago ou marketing orgânico: qual faz mais sentido?",
+ description:"Compare anúncios e aquisição orgânica, entenda prazos, custos e como combinar os canais em uma estratégia de crescimento.",
+ category:"Marketing digital",date:"2026-11-15",readTime:"6 min",keywords:["tráfego pago","marketing orgânico","Google Ads","SEO"],
+ intro:"Tráfego pago e marketing orgânico cumprem papéis diferentes. Um compra distribuição e velocidade; o outro constrói presença e descoberta ao longo do tempo. Para muitas empresas, a decisão mais eficiente não é escolher um único caminho, mas combinar os dois com objetivos claros.",
+ sections:[
+ {heading:"O que o tráfego pago entrega",paragraphs:["Anúncios em plataformas como Google e Meta podem colocar uma oferta diante de públicos específicos e gerar dados rapidamente. A velocidade depende da verba, da concorrência, da qualidade dos anúncios e da página de destino.","O investimento deixa de gerar tráfego quando as campanhas são pausadas. Por isso, é importante acompanhar custo por lead, taxa de conversão e qualidade das oportunidades, não apenas cliques."]},
+ {heading:"O que o orgânico constrói",paragraphs:["SEO, conteúdo útil, reputação e presença social ajudam a empresa a ser encontrada sem pagar por cada visita. Esse trabalho costuma exigir consistência e tempo para ganhar relevância e conquistar posições.","Conteúdo orgânico também responde dúvidas, educa o público e pode apoiar a decisão de compra mesmo quando o primeiro contato veio de um anúncio."]},
+ {heading:"Como combinar os canais",bullets:["Use mídia paga para testar ofertas, mensagens e públicos com rapidez.","Transforme dúvidas recorrentes dos clientes em páginas e artigos úteis.","Direcione anúncios para páginas específicas, não apenas para a página inicial.","Use dados de campanhas e do atendimento para priorizar novos conteúdos.","Acompanhe leads e vendas para entender o retorno de cada canal."]},
+ {heading:"Como decidir",paragraphs:["Se a empresa precisa validar uma oferta ou acelerar a geração de contatos, campanhas pagas podem ser úteis. Se busca construir autoridade e reduzir dependência de mídia ao longo do tempo, precisa investir em ativos orgânicos. A escolha depende do estágio, orçamento e capacidade de atendimento.","A S.Alfa MKT integra planejamento, mídia e presença digital para desenhar uma combinação coerente com os objetivos da empresa."]}]
+},
+{
+ slug:"site-que-gera-clientes",title:"O que um site precisa ter para transformar visitas em clientes",
+ description:"Veja os elementos que ajudam um site empresarial a transmitir confiança, aparecer nas buscas e gerar contatos qualificados.",
+ category:"Sites e conversão",date:"2026-11-15",readTime:"7 min",keywords:["site que gera clientes","criação de sites","site empresarial","conversão"],
+ intro:"Um site empresarial precisa fazer mais do que apresentar a empresa. Ele deve explicar rapidamente o que oferece, para quem trabalha, por que merece confiança e qual é o próximo passo para o visitante.",
+ sections:[
+ {heading:"Uma proposta de valor clara",paragraphs:["A primeira tela deve deixar claro o que a empresa faz e qual problema resolve. Títulos vagos e textos cheios de jargões obrigam o visitante a adivinhar se encontrou a solução certa.","Organize serviços por necessidade do cliente e use chamadas objetivas para orientar a navegação."]},
+ {heading:"Confiança demonstrada com evidências",paragraphs:["Apresente informações reais sobre a empresa, equipe, processo, localização quando relevante, canais de contato e exemplos autorizados de trabalhos. Depoimentos e resultados devem ser verdadeiros, contextualizados e verificáveis.","Evite números sem explicação e promessas que não possam ser sustentadas. Credibilidade é construída com clareza."]},
+ {heading:"Experiência mobile e velocidade",paragraphs:["Grande parte das visitas pode acontecer pelo celular. Textos legíveis, botões acessíveis, imagens otimizadas e navegação simples reduzem barreiras.","Páginas lentas ou difíceis de usar podem prejudicar a experiência e desperdiçar visitas conquistadas por anúncios ou buscas."]},
+ {heading:"SEO e páginas específicas",paragraphs:["Cada serviço importante merece uma página própria, com título, descrição, conteúdo original e perguntas que respondam à intenção de busca. Uma única página tentando ranquear para todos os assuntos tende a ficar genérica.","Configure sitemap, robots.txt, canonical, dados estruturados apropriados e acompanhe a indexação nos mecanismos de busca."]},
+ {heading:"Conversão e mensuração",bullets:["Inclua chamadas para ação coerentes com a etapa de decisão.","Ofereça WhatsApp e formulários simples, com expectativa clara de retorno.","Meça cliques nos contatos, envios de formulário e leads qualificados.","Revise páginas com muitas visitas e poucas conversões.","Conecte dados de marketing ao processo comercial sempre que possível."]},
+ {heading:"Conclusão",paragraphs:["Um site que gera oportunidades combina mensagem clara, confiança, boa experiência, conteúdo útil e mensuração. A S.Alfa MKT desenvolve presença digital conectada à estratégia de comunicação e aos objetivos comerciais."]}]
+},
+{
+ slug:"seo-local-para-empresas",title:"SEO local: como sua empresa pode aparecer nas buscas da região",
+ description:"Aprenda fundamentos de SEO local, Perfil da Empresa no Google, páginas regionais, avaliações e consistência das informações.",
+ category:"SEO",date:"2026-11-15",readTime:"6 min",keywords:["SEO local","aparecer no Google","Google Business Profile","marketing local"],
+ intro:"Quando alguém procura um serviço perto de onde está, quer encontrar opções relevantes, confiáveis e fáceis de contatar. O SEO local organiza a presença digital para ajudar mecanismos de busca e consumidores a entenderem onde a empresa atua e o que oferece.",
+ sections:[
+ {heading:"Mantenha os dados da empresa consistentes",paragraphs:["Nome, endereço, telefone, horário e categoria devem estar corretos nos canais em que a empresa aparece. Informações divergentes podem confundir clientes e dificultar a validação da presença local.","Atualize os dados sempre que houver mudança e use o nome comercial de forma consistente, sem inserir palavras-chave artificiais no nome da empresa."]},
+ {heading:"Trabalhe o Perfil da Empresa no Google",paragraphs:["Complete as informações, escolha categorias adequadas, descreva serviços com clareza, publique fotos reais e responda avaliações de maneira profissional. O perfil deve representar a operação verdadeira.","Não compre avaliações nem ofereça incentivos que violem as regras da plataforma. Peça feedback honesto a clientes reais."]},
+ {heading:"Crie páginas úteis para sua área de atuação",paragraphs:["Se a empresa atende diferentes cidades ou regiões, explique de forma genuína como funciona o atendimento em cada localidade. Evite criar dezenas de páginas quase iguais apenas trocando o nome da cidade.","Inclua serviços, contexto local, perguntas frequentes e formas de contato relevantes para cada página."]},
+ {heading:"Construa reputação e autoridade",paragraphs:["Avaliações, menções em sites relevantes, conteúdo especializado e informações consistentes ajudam a demonstrar legitimidade. O trabalho deve ser contínuo, não uma configuração feita uma única vez."]},
+ {heading:"Acompanhe o que importa",paragraphs:["Observe chamadas, solicitações de rota, visitas ao site, consultas de pesquisa e contatos que realmente viraram oportunidades. A posição média isolada não mostra todo o desempenho.","SEO local é uma combinação de relevância, distância e notoriedade. Nenhuma agência pode garantir a primeira posição para todas as pesquisas."]}]
+},
+{
+ slug:"planejamento-de-marketing-para-pequenas-empresas",title:"Como montar um planejamento de marketing para pequenas empresas",
+ description:"Um roteiro prático para definir objetivos, público, oferta, canais, orçamento e indicadores sem desperdiçar recursos.",
+ category:"Planejamento",date:"2026-11-15",readTime:"7 min",keywords:["planejamento de marketing","marketing para pequenas empresas","estratégia de marketing"],
+ intro:"Pequenas empresas precisam fazer escolhas. Com orçamento e equipe limitados, tentar estar em todos os canais ao mesmo tempo costuma dispersar energia. Um planejamento simples ajuda a priorizar ações que tenham ligação direta com os objetivos do negócio.",
+ sections:[
+ {heading:"Defina um objetivo mensurável",paragraphs:["Troque metas vagas como crescer nas redes por objetivos concretos: aumentar pedidos de orçamento, vender uma linha específica, ampliar agendamentos ou melhorar a recompra.","Estabeleça um período de análise e uma métrica principal. O objetivo deve ser compatível com a capacidade operacional da empresa."]},
+ {heading:"Conheça o cliente e a oferta",paragraphs:["Registre quem compra, quais problemas busca resolver, quais dúvidas apresenta e o que costuma impedir a decisão. Converse com clientes e equipe comercial; essas informações são matéria-prima para campanhas e conteúdos.","Revise a oferta: benefícios, diferenciais, preço, condições e provas. Marketing não corrige sozinho um produto mal posicionado ou um atendimento inconsistente."]},
+ {heading:"Escolha poucos canais prioritários",paragraphs:["Selecione canais de acordo com o comportamento do público e a jornada de compra. Busca local, redes sociais, anúncios, parcerias, e-mail e conteúdo podem ter funções diferentes.","Comece com um conjunto que a equipe consiga executar e medir. Amplie somente quando houver processo e evidência de que faz sentido."]},
+ {heading:"Organize orçamento e rotina",paragraphs:["Separe investimento em mídia, produção, ferramentas e serviços. Defina responsáveis, prazos de aprovação e frequência de acompanhamento.","Planeje uma rotina realista de publicação e campanhas. Consistência sustentável vale mais do que um calendário ambicioso que não será cumprido."]},
+ {heading:"Meça, aprenda e ajuste",bullets:["Acompanhe contatos, oportunidades, vendas e custo de aquisição quando os dados estiverem disponíveis.","Identifique quais mensagens e ofertas geram conversas qualificadas.","Revise páginas e campanhas com desempenho abaixo do esperado.","Registre aprendizados e transforme dúvidas recorrentes em novos conteúdos."]},
+ {heading:"Conclusão",paragraphs:["Planejamento é um ciclo: entender, priorizar, executar, medir e ajustar. Uma agência pode ajudar a conectar essas etapas, mas as decisões precisam considerar a realidade e a capacidade de atendimento da empresa."]}]
+}
+];
+
+export const findArticle = (slug: string) => articles.find((article) => article.slug === slug);
