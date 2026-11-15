@@ -38,7 +38,8 @@ const Article = () => {
               </section>
             ))}
           </div>
-          {article.sources && article.sources.length > 0 && <section className="mt-12 border-t border-white/10 pt-7"><h2 className="text-lg font-extrabold">Fontes e referências</h2><ul className="mt-3 space-y-2 text-sm text-white/60">{article.sources.map((source) => <li key={source.url}><a href={source.url} target="_blank" rel="noopener noreferrer" className="text-primary underline-offset-4 hover:underline">{source.label}</a></li>)}</ul></section>}\n          <aside className="mt-14 rounded-2xl border border-primary/25 bg-[#151515] p-7 sm:p-9">
+          {article.sources && article.sources.length > 0 && <section className="mt-12 border-t border-white/10 pt-7"><h2 className="text-lg font-extrabold">Fontes e referências</h2><ul className="mt-3 space-y-2 text-sm text-white/60">{article.sources.map((source) => <li key={source.url}><a href={source.url} target="_blank" rel="noopener noreferrer" className="text-primary underline-offset-4 hover:underline">{source.label}</a></li>)}</ul></section>}
+          <aside className="mt-14 rounded-2xl border border-primary/25 bg-[#151515] p-7 sm:p-9">
             <p className="text-xs font-extrabold uppercase tracking-[.18em] text-primary">S.Alfa MKT</p>
             <h2 className="mt-3 text-2xl font-black">Sua empresa precisa de uma estratégia conectada?</h2>
             <p className="mt-3 text-sm leading-relaxed text-white/65">Vamos entender seu cenário e identificar oportunidades em comunicação, marketing, publicidade e presença digital.</p>
