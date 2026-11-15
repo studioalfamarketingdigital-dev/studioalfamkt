@@ -26,7 +26,7 @@ const Article = () => {
             <span className="rounded-full bg-primary/10 px-3 py-1 text-xs font-bold text-primary">{article.category}</span>
             <h1 className="mt-6 text-3xl font-black leading-tight tracking-tight sm:text-5xl">{article.title}</h1>
             <p className="mt-5 text-lg leading-relaxed text-white/65">{article.description}</p>
-            <div className="mt-6 flex items-center gap-2 text-xs text-white/45"><Clock3 size={14}/>{article.readTime} de leitura <span>·</span> S.Alfa MKT</div>
+            <div className="mt-6 flex flex-wrap items-center gap-x-3 gap-y-2 text-xs text-white/45"><Clock3 size={14}/>{article.readTime} de leitura <span>·</span><span className="font-semibold text-white/75">{article.author}</span><span>{article.authorRole}</span></div>
           </header>
           <div className="prose prose-invert prose-lg mt-9 max-w-none prose-headings:font-extrabold prose-headings:tracking-tight prose-a:text-primary prose-strong:text-white">
             <p className="text-xl leading-relaxed text-white/85">{article.intro}</p>
@@ -38,7 +38,7 @@ const Article = () => {
               </section>
             ))}
           </div>
-          <aside className="mt-14 rounded-2xl border border-primary/25 bg-[#151515] p-7 sm:p-9">
+          {article.sources && article.sources.length > 0 && <section className="mt-12 border-t border-white/10 pt-7"><h2 className="text-lg font-extrabold">Fontes e referências</h2><ul className="mt-3 space-y-2 text-sm text-white/60">{article.sources.map((source) => <li key={source.url}><a href={source.url} target="_blank" rel="noopener noreferrer" className="text-primary underline-offset-4 hover:underline">{source.label}</a></li>)}</ul></section>}\n          <aside className="mt-14 rounded-2xl border border-primary/25 bg-[#151515] p-7 sm:p-9">
             <p className="text-xs font-extrabold uppercase tracking-[.18em] text-primary">S.Alfa MKT</p>
             <h2 className="mt-3 text-2xl font-black">Sua empresa precisa de uma estratégia conectada?</h2>
             <p className="mt-3 text-sm leading-relaxed text-white/65">Vamos entender seu cenário e identificar oportunidades em comunicação, marketing, publicidade e presença digital.</p>
