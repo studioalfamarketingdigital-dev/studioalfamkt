@@ -232,18 +232,6 @@ sections:[
 {heading:"Distribuição e aprendizado",paragraphs:["Adapte o vídeo à plataforma e à etapa da jornada. Uma versão para anúncio pode precisar de abertura mais direta; uma versão institucional pode desenvolver contexto com mais calma.","Acompanhe retenção, cliques, conversas e qualidade dos contatos. Use os resultados para melhorar o próximo roteiro, não apenas para escolher o vídeo com mais visualizações."]}]
 },
 {
-slug:"email-marketing-relacionamento-clientes",title:"E-mail marketing: como construir relacionamento sem lotar a caixa de entrada",
-description:"Boas práticas de consentimento, segmentação, conteúdo e métricas para usar e-mail como canal de relacionamento.",
-category:"Marketing digital",date:"2026-11-15",readTime:"6 min",author:"Núcleo de Relacionamento",authorRole:"CRM e comunicação direta",
-keywords:["e-mail marketing","newsletter","automação de marketing","relacionamento com clientes"],
-intro:"E-mail continua sendo um canal útil para relacionamento, conteúdo e comunicação transacional. Seu valor não está em disparar o maior número possível de mensagens, mas em enviar informações relevantes para pessoas que esperam recebê-las.",
-sections:[
-{heading:"Construa uma base legítima",paragraphs:["Colete endereços com transparência e informe para que serão usados. Respeite consentimento, preferências e legislação aplicável, incluindo a LGPD quando houver tratamento de dados pessoais.","Listas compradas ou coletadas sem contexto tendem a gerar reclamações, baixa interação e problemas de reputação do domínio."]},
-{heading:"Segmente pelo interesse",paragraphs:["Separe contatos por relacionamento, assunto, preferência ou etapa da jornada, sempre com base em dados adequados. Uma mensagem útil para um cliente ativo pode não fazer sentido para alguém que acabou de conhecer a marca.","Permita que a pessoa atualize preferências e cancele a inscrição de forma simples."]},
-{heading:"Escreva para leitura rápida",paragraphs:["Use assunto claro, uma ideia principal e uma chamada para ação coerente. O conteúdo precisa entregar valor mesmo quando o leitor não clica.","Teste a visualização em dispositivos móveis, revise links e identifique claramente quem está enviando a mensagem."]},
-{heading:"Métricas e melhoria",paragraphs:["Acompanhe entregabilidade, rejeições, descadastros, cliques e ações posteriores. Aberturas podem sofrer influência de mecanismos de privacidade e não devem ser interpretadas isoladamente.","Faça testes controlados e priorize qualidade do relacionamento, não apenas frequência de disparo."]}]
-},
-{
 slug:"inteligencia-artificial-marketing-uso-responsavel",title:"Inteligência artificial no marketing: onde ela ajuda e onde exige revisão humana",
 description:"Aplicações práticas de IA em pesquisa, produção, análise e atendimento — com limites, validação e responsabilidade.",
 category:"Tecnologia e inovação",date:"2026-11-15",readTime:"7 min",author:"Núcleo de Inovação",authorRole:"Tecnologia aplicada ao marketing",
@@ -292,18 +280,6 @@ sections:[
 {heading:"Avalie o conjunto",paragraphs:["Atribuir cada venda a um único canal pode ser difícil em campanhas integradas. Combine dados de mídia, pesquisas de lembrança quando houver orçamento, acessos diretos, buscas pela marca e informações do comercial.","O objetivo é entender contribuição e melhorar o plano, não produzir uma atribuição artificialmente precisa."]}]
 },
 {
-slug:"comunicacao-visual-ponto-de-venda",title:"Comunicação visual no ponto de venda: como orientar e facilitar a escolha",
-description:"Princípios de sinalização, hierarquia visual, informação e consistência para ambientes comerciais e de atendimento.",
-category:"Comunicação visual",date:"2026-11-15",readTime:"5 min",author:"Núcleo de Design e Experiência",authorRole:"Design aplicado ao ambiente",
-keywords:["comunicação visual","ponto de venda","sinalização comercial","visual merchandising"],
-intro:"No ponto de venda, a comunicação visual precisa ser compreendida rapidamente. Ela orienta, informa, destaca produtos e ajuda a pessoa a circular pelo ambiente sem depender de explicações a cada passo.",
-sections:[
-{heading:"Organize a informação por prioridade",paragraphs:["O visitante precisa identificar primeiro onde está, o que encontra e como realizar a próxima ação. Hierarquia de títulos, contraste, tamanho e posição ajudam a reduzir esforço de leitura.","Evite excesso de mensagens concorrendo pelo mesmo espaço. Se tudo recebe destaque, nada se destaca."]},
-{heading:"Considere distância e tempo de leitura",paragraphs:["Uma placa vista de longe precisa de texto curto e contraste adequado. Uma peça próxima ao produto pode apresentar mais detalhes. O tamanho da letra deve considerar distância, iluminação e público.","Teste a comunicação no ambiente real, em diferentes horários e ângulos."]},
-{heading:"Mantenha identidade e acessibilidade",paragraphs:["Use elementos da marca com consistência, mas preserve legibilidade. Não dependa apenas da cor para transmitir informação e considere contraste, altura de instalação e circulação.","Sinalização funcional deve ajudar pessoas com diferentes necessidades e respeitar normas aplicáveis ao espaço."]},
-{heading:"Avalie a utilidade",paragraphs:["Observe onde clientes param, perguntam ou demonstram confusão. Converse com a equipe e ajuste mensagens que não estejam cumprindo sua função.","A comunicação visual é parte da experiência do serviço, não apenas decoração."]}]
-},
-{
 slug:"como-definir-orcamento-marketing",title:"Como definir o orçamento de marketing sem escolher números no escuro",
 description:"Método para organizar investimento em mídia, criação, tecnologia e operação com base em metas e capacidade financeira.",
 category:"Gestão de marketing",date:"2026-11-15",readTime:"7 min",author:"Núcleo de Gestão e Planejamento",authorRole:"Gestão de investimento",
@@ -326,18 +302,6 @@ sections:[
 {heading:"Registre o mínimo necessário",paragraphs:["Nome, canal de origem, necessidade, responsável, data do último contato e próxima tarefa podem ser suficientes para começar. Colete apenas dados pertinentes e respeite regras de privacidade.","Padronize campos e evite anotações vagas. O histórico precisa ser compreensível para qualquer pessoa autorizada da equipe."]},
 {heading:"Crie uma rotina de acompanhamento",bullets:["Revise contatos novos diariamente.","Defina prazos de retorno por tipo de oportunidade.","Registre propostas e motivos de perda.","Reative contatos quando houver contexto e autorização apropriados.","Faça uma revisão semanal do pipeline com a equipe."]},
 {heading:"Use dados para melhorar marketing e vendas",paragraphs:["O CRM ajuda a descobrir quais canais geram oportunidades que avançam, quais objeções se repetem e em que etapa os contatos param.","Não é necessário começar com um sistema complexo. Um processo adotado pela equipe vale mais que uma ferramenta cheia de recursos que ninguém atualiza."]}]
-},
-{
-slug:"acessibilidade-digital-sites-empresas",title:"Acessibilidade digital: como tornar o site mais fácil de usar para mais pessoas",
-description:"Práticas de contraste, navegação, textos, formulários e estrutura que melhoram a experiência digital.",
-category:"Experiência digital",date:"2026-11-15",readTime:"6 min",author:"Núcleo de Experiência Digital",authorRole:"Usabilidade e acessibilidade",
-keywords:["acessibilidade digital","site acessível","usabilidade web","WCAG"],
-intro:"Acessibilidade digital não é um detalhe opcional de acabamento. Ela ajuda pessoas com diferentes capacidades, dispositivos e contextos de uso a encontrar informações e concluir tarefas com menos barreiras.",
-sections:[
-{heading:"Contraste e tipografia",paragraphs:["Texto precisa ter contraste suficiente com o fundo e tamanho confortável. Evite blocos longos em fontes pequenas e não use apenas cor para diferenciar estados ou categorias.","Hierarquia de títulos e espaçamento consistente ajudam leitura e navegação."]},
-{heading:"Navegação por teclado e leitores de tela",paragraphs:["Elementos interativos devem poder ser acessados por teclado, com foco visível e ordem lógica. Imagens informativas precisam de texto alternativo; imagens decorativas podem ser ignoradas por tecnologias assistivas.","Botões e links devem ter rótulos que expliquem a ação, não apenas expressões vagas como clique aqui."]},
-{heading:"Formulários compreensíveis",paragraphs:["Associe rótulos aos campos, explique formatos esperados e apresente mensagens de erro úteis. Não dependa apenas de placeholders para identificar o que deve ser preenchido.","Ofereça tempo adequado e evite exigir informações desnecessárias."]},
-{heading:"Teste com pessoas e ferramentas",paragraphs:["Ferramentas automáticas ajudam a encontrar problemas, mas não substituem testes de uso. Navegue com teclado, ampliação de tela e leitor de tela quando possível.","Acessibilidade melhora a experiência geral e pode ampliar o público que consegue usar o serviço."]}]
 },
 {
 slug:"dados-analytics-decisoes-marketing",title:"Analytics para marketing: quais dados acompanhar para tomar decisões melhores",
@@ -376,6 +340,39 @@ sections:[
 {heading:"Planejamento com transparência",paragraphs:["OOH e DOOH podem reforçar presença de marca e campanhas regionais, mas resultados dependem de contexto, criatividade e integração com outros canais.","O MídiaMap busca organizar a descoberta e comparação de inventário publicitário, ajudando anunciantes a estruturar pesquisas e planos com mais clareza."]}]
 },
 
+
+{
+slug:"grupo-studio-alfa-ecossistema-negocios-digitais",title:"Grupo Studio Alfa: um ecossistema de negócios digitais com propósitos diferentes",description:"Conheça a visão do Grupo Studio Alfa e como suas marcas e plataformas se conectam em torno de comunicação, tecnologia, educação e soluções digitais.",category:"Grupo Studio Alfa",date:"2026-11-15",readTime:"8 min",author:"Redação Institucional",authorRole:"Estratégia e visão do grupo",
+keywords:["Grupo Studio Alfa","ecossistema Studio Alfa","negócios digitais","plataformas digitais brasileiras"],
+intro:"A Studio Alfa nasceu no universo da comunicação e do marketing, mas a visão de futuro do grupo vai além de uma agência tradicional. A proposta é desenvolver negócios especializados em diferentes necessidades do mercado, cada um com identidade e público próprios, conectados por uma mesma cultura de comunicação clara, tecnologia útil e evolução responsável. Este artigo apresenta essa visão sem confundir projetos em desenvolvimento com serviços já disponíveis.",
+sections:[
+{heading:"Uma origem na comunicação integrada",paragraphs:["A Studio Alfa atua com publicidade, marketing e comunicação integrada. Seu trabalho reúne estratégia, conteúdo, criação, mídia, presença digital e ações online e offline. A lógica é entender a jornada do consumidor antes de escolher canais e formatos.","A experiência com empresas também revela demandas que vão além da publicidade: tecnologia para setores específicos, educação online, ferramentas digitais e serviços que simplifiquem tarefas do dia a dia. Essas oportunidades inspiram a construção de novas iniciativas."]},
+{heading:"Marcas com missões próprias",paragraphs:["O ecossistema contempla a Studio Alfa, dedicada a marketing e publicidade; o MídiaMap, voltado à descoberta e ao planejamento de inventário de mídia exterior; a KONG, direcionada a tours virtuais 360° e tecnologia imobiliária; a ELEV, com foco em cursos livres e aprendizagem online; a VIA, uma proposta de serviços digitais e conectividade; o Acordaê, pensado para apoiar a compreensão e a jornada de negociação de dívidas; e a LUZ-EMAIL, voltada a e-mail profissional e soluções digitais relacionadas.","Cada negócio precisa ter posicionamento, público, modelo comercial e operação próprios. Fazer parte de um ecossistema não significa que todas as marcas ofereçam o mesmo serviço ou estejam no mesmo estágio de maturidade."]},
+{heading:"O que conecta as iniciativas",bullets:["Resolver necessidades concretas de pessoas e empresas.","Utilizar tecnologia para simplificar experiências e processos.","Manter marcas e propostas de valor especializadas.","Trabalhar com transparência, segurança e atendimento responsável.","Validar demanda e operação antes de ampliar a escala."]},
+{heading:"Um ecossistema em construção",paragraphs:["As iniciativas estão em estágios diferentes: há operações com presença digital estruturada, produtos em desenvolvimento e propostas que ainda exigem validação comercial, parceiros ou análise regulatória. Por isso, a comunicação do grupo deve dizer com clareza o que está disponível, em construção ou em planejamento.","A ambição não é acumular nomes ou lançar plataformas sem propósito. É transformar ideias em soluções sustentáveis, com clientes reais, processos confiáveis e capacidade de evoluir."]}]
+},
+{
+slug:"modelo-studio-alfa-comunicacao-integrada",title:"O modelo Studio Alfa: estratégia, comunicação integrada e foco na jornada do cliente",description:"Entenda como a Studio Alfa conecta planejamento, criação, mídia, conteúdo e presença digital antes de escolher os canais de comunicação.",category:"Grupo Studio Alfa",date:"2026-11-15",readTime:"7 min",author:"Núcleo de Estratégia",authorRole:"Planejamento e comunicação integrada",
+keywords:["modelo Studio Alfa","comunicação integrada","marketing 360","jornada do consumidor"],
+intro:"O modelo da Studio Alfa começa antes da escolha de uma rede social, anúncio ou formato. A primeira pergunta é o que precisa acontecer no negócio e na relação com o público. A partir daí, estratégia, criação, mídia, conteúdo e canais digitais são organizados para cumprir funções específicas na jornada do consumidor.",
+sections:[
+{heading:"Entender o negócio antes de propor ações",paragraphs:["Cada empresa tem uma realidade: público, oferta, concorrência, equipe comercial, orçamento e capacidade de atendimento. O planejamento considera esses fatores para identificar prioridades e evitar campanhas desconectadas.","Também é necessário entender as dúvidas dos clientes, os motivos de compra, as objeções e os pontos em que as oportunidades costumam se perder. Essas informações ajudam a construir mensagens mais relevantes."]},
+{heading:"Estratégia antes do formato",paragraphs:["Conteúdo pode educar e construir confiança; anúncios podem acelerar a descoberta; um site pode explicar e converter; ações offline podem ampliar presença; e o atendimento precisa transformar interesse em oportunidade real.","Os canais são meios, não o objetivo final. A combinação depende do comportamento do público, do estágio da empresa e dos recursos disponíveis para executar bem cada ação."]},
+{heading:"Marketing conectado ao comercial",paragraphs:["A comunicação não termina no clique. Sempre que possível, é importante acompanhar se o contato foi atendido, se tinha perfil, se recebeu uma proposta e se avançou no processo de compra. O retorno do time comercial ajuda a melhorar campanhas, conteúdos e ofertas.","Resultados também dependem de preço, produto, concorrência, atendimento e capacidade operacional. Uma agência responsável apresenta seu papel com clareza e não promete controlar fatores que não estão sob sua gestão."]},
+{heading:"Como acompanhamos o trabalho",bullets:["Definimos objetivos e indicadores antes da execução.","Organizamos responsabilidades, entregas e aprovações.","Acompanhamos alcance, tráfego, leads e conversões conforme a meta.","Analisamos a qualidade das oportunidades, não apenas métricas de vaidade.","Registramos aprendizados para orientar o próximo ciclo."]},
+{heading:"Um modelo adaptável",paragraphs:["A Studio Alfa reúne estratégia, criação, conteúdo, mídia e soluções digitais conforme a necessidade de cada projeto. O escopo deve ser transparente e compatível com a realidade do cliente. O compromisso é trabalhar com método, clareza e melhoria contínua."]}]
+},
+{
+slug:"visao-de-futuro-grupo-studio-alfa",title:"O futuro do Grupo Studio Alfa: construir tecnologia, marcas próprias e negócios sustentáveis",description:"As ambições de longo prazo do Grupo Studio Alfa e os princípios para transformar ideias em produtos, empresas e soluções digitais reais.",category:"Visão de futuro",date:"2026-11-15",readTime:"7 min",author:"Direção Editorial S.Alfa",authorRole:"Visão institucional",
+keywords:["futuro Grupo Studio Alfa","ecossistema de inovação","marcas próprias","empresas digitais"],
+intro:"Construir um grupo de negócios exige muito mais do que registrar marcas ou colocar sites no ar. É preciso validar produtos, conquistar clientes, estruturar operação, garantir suporte, cumprir obrigações e desenvolver modelos econômicos sustentáveis. A ambição do Grupo Studio Alfa é crescer como um ecossistema de soluções especializadas, com execução responsável e resultados demonstráveis.",
+sections:[
+{heading:"Crescer a partir de problemas reais",paragraphs:["A visão de expansão nasce da experiência da Studio Alfa em comunicação e do contato com necessidades de diferentes mercados. Em vez de criar tecnologia apenas por tendência, cada iniciativa deve partir de um problema claro e de pessoas que realmente precisam de uma solução.","O MídiaMap, a KONG, a ELEV, a VIA, o Acordaê e a LUZ-EMAIL representam frentes diferentes dessa visão. Cada uma precisa provar sua utilidade e conquistar seu próprio público."]},
+{heading:"Tecnologia como ferramenta",paragraphs:["Plataformas digitais podem organizar serviços, reduzir etapas e ampliar acesso. Mas só criam valor quando funcionam, são fáceis de usar, protegem dados e contam com suporte adequado.","Por isso, produto, segurança, experiência, integrações, manutenção e atendimento precisam evoluir juntos. Um lançamento visualmente pronto não significa, por si só, que uma operação esteja madura."]},
+{heading:"O que queremos construir",bullets:["Um portfólio de empresas com propostas claras e complementares.","Produtos digitais que resolvam problemas específicos de seus mercados.","Marcas confiáveis, com comunicação honesta e experiência consistente.","Parcerias técnicas e comerciais que ampliem a capacidade de execução.","Uma estrutura de gestão capaz de acompanhar custos, receitas, qualidade e satisfação."]},
+{heading:"Crescimento por etapas",paragraphs:["A prioridade deve ser validar demanda, definir o modelo comercial, colocar a operação em funcionamento e acompanhar indicadores antes de acelerar investimentos. Projetos que envolvam conectividade, serviços financeiros ou tratamento de dados exigem atenção adicional a parceiros, contratos e requisitos regulatórios.","Essa visão também exige escolhas: concentrar recursos em poucas prioridades por ciclo, aprender com clientes e não confundir intenção com resultado já alcançado."]},
+{heading:"Ambição com responsabilidade",paragraphs:["Queremos que o Grupo Studio Alfa seja reconhecido por criar soluções úteis, marcas confiáveis e experiências digitais bem executadas. Essa é uma ambição de longo prazo, não uma afirmação de escala já alcançada.","O futuro será construído com entregas concretas: produtos que funcionam, clientes atendidos, processos sustentáveis e resultados que possam ser demonstrados. Crescer com consistência é mais importante do que parecer grande antes da hora."]}]
+}
 ];
 
 export const findArticle = (slug: string) => articles.find((article) => article.slug === slug);
