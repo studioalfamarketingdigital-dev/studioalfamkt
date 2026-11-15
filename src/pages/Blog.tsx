@@ -19,9 +19,9 @@ const Blog = () => (
         <div className="mt-12 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
           {articles.map((article, index) => (
             <article key={article.slug} className="group flex flex-col rounded-2xl border border-white/10 bg-[#121212] p-6 transition hover:border-primary/50 hover:-translate-y-1">
-              <div className="flex items-center justify-between gap-3 text-xs text-white/55"><span className="rounded-full bg-primary/10 px-3 py-1 font-bold text-primary">{article.category}</span><span className="flex items-center gap-1"><Clock3 size={13}/>{article.readTime} de leitura</span></div>
+              <div className="flex items-center justify-between gap-3 text-xs text-white/55"><span className="rounded-full bg-primary/10 px-3 py-1 font-bold text-primary">{article.category}</span><span className="flex items-center gap-1"><Clock3 size={13}/>{article.readTime}</span></div>
               <div className="mt-7 flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-white/35"><BookOpen size={14}/> Artigo {String(index + 1).padStart(2,"0")}</div>
-              <h2 className="mt-4 text-xl font-extrabold leading-snug">{article.title}</h2>
+              <h2 className="mt-4 text-xl font-extrabold leading-snug">{article.title}</h2>\n              <p className="mt-2 text-xs font-semibold text-white/45">{article.author}</p>
               <p className="mt-3 flex-1 text-sm leading-relaxed text-white/65">{article.description}</p>
               <Link to={`/blog/${article.slug}`} className="mt-7 inline-flex items-center gap-2 text-sm font-extrabold text-primary hover:text-white">Ler artigo <ArrowRight size={16}/></Link>
             </article>
