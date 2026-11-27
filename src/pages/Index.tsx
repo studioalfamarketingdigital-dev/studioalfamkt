@@ -8,6 +8,7 @@ import Videos from "@/components/Videos";
 import Results from "@/components/Results";
 import About from "@/components/About";
 import Ecosystem from "@/components/Ecosystem";
+import Presence from "@/components/Presence";
 import FAQ from "@/components/FAQ";
 import CTA from "@/components/CTA";
 import Contact from "@/components/Contact";
@@ -61,6 +62,7 @@ const Index = () => (
       <Videos />
       <Results />
       <About />
+      <Presence />
       <Ecosystem />
       <LatestArticles />
       <FAQ />

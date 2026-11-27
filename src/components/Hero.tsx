@@ -11,14 +11,14 @@ const Hero = () => (
         <div className="min-w-0">
           <div className="mb-7 inline-flex items-center gap-2 rounded-full border border-primary/30 bg-primary/10 px-4 py-2">
             <Sparkles className="h-4 w-4 text-primary" />
-            <span className="text-[11px] font-extrabold uppercase tracking-[.16em] text-foreground/85 sm:text-xs">Comunicação, marketing e publicidade 360°</span>
+            <span className="text-[11px] font-extrabold uppercase tracking-[.16em] text-foreground/85 sm:text-xs">Agência de comunicação, publicidade e produção audiovisual</span>
           </div>
           <h1 className="max-w-3xl text-[2.65rem] font-black leading-[.99] tracking-[-.055em] text-foreground sm:text-6xl lg:text-[4.45rem] xl:text-[5rem]">
             Sua marca precisa de <span className="text-gradient">movimento.</span><br />
             Seu negócio, de <span className="text-primary">resultado.</span>
           </h1>
           <p className="mt-7 max-w-xl text-base leading-relaxed text-muted-foreground sm:text-lg">
-            Somos um hub completo de comunicação, marketing e publicidade: reunimos estratégia, criação, mídia, audiovisual e tecnologia para conectar sua marca às pessoas certas, no Brasil e em outros mercados.
+            Criamos estratégias, campanhas publicitárias e filmes comerciais. Da ideia ao roteiro, da produção audiovisual à mídia, conectamos criação, tecnologia e performance para levar sua marca às pessoas certas.
           </p>
           <div className="mt-7 inline-flex max-w-xl flex-col rounded-2xl border border-primary/35 bg-primary/[.08] px-5 py-4 sm:flex-row sm:items-center sm:gap-4"><p className="text-2xl font-black tracking-tight text-white sm:text-3xl">Visão integrada</p><p className="max-w-xs text-xs font-bold uppercase leading-relaxed tracking-[.12em] text-white/75 sm:text-sm">estratégia, criação, mídia e tecnologia conectadas</p></div>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
@@ -26,7 +26,7 @@ const Hero = () => (
               <Button variant="hero" size="lg" className="w-full sm:w-auto">Vamos conversar <ArrowRight className="ml-2" /></Button>
             </a>
             <a href="#videos" className="w-full sm:w-auto">
-              <Button variant="heroOutline" size="lg" className="w-full sm:w-auto"><Play className="mr-2" /> Conheça nossos vídeos</Button>
+              <Button variant="heroOutline" size="lg" className="w-full sm:w-auto"><Play className="mr-2" /> Conheça nossos filmes e vídeos</Button>
             </a>
           </div>
           <div className="mt-10 grid gap-3 border-t border-border pt-6 sm:grid-cols-3">
@@ -37,11 +37,11 @@ const Hero = () => (
             ))}
           </div>
           <div className="mt-9 flex flex-wrap items-center gap-x-8 gap-y-3">
-            <div><p className="text-3xl font-black tracking-tight text-foreground">7<span className="text-primary">+</span></p><p className="mt-1 text-[10px] font-bold uppercase tracking-[.15em] text-muted-foreground">Anos de atuação</p></div>
+            <div><p className="text-3xl font-black tracking-tight text-foreground">2019</p><p className="mt-1 text-[10px] font-bold uppercase tracking-[.15em] text-muted-foreground">No mercado desde</p></div>
             <div className="h-10 w-px bg-border" />
             <div><p className="text-3xl font-black tracking-tight text-foreground">360<span className="text-primary">°</span></p><p className="mt-1 text-[10px] font-bold uppercase tracking-[.15em] text-muted-foreground">Visão integrada</p></div>
             <div className="h-10 w-px bg-border" />
-            <div><p className="text-2xl font-black tracking-tight text-foreground">BR <span className="text-primary">+</span> Mundo</p><p className="mt-1 text-[10px] font-bold uppercase tracking-[.15em] text-muted-foreground">Atuação nacional e internacional</p></div>
+            <div><p className="text-2xl font-black tracking-tight text-foreground">GO <span className="text-primary">+</span> DF</p><p className="mt-1 text-[10px] font-bold uppercase tracking-[.15em] text-muted-foreground">Luziânia e Brasília</p></div>
           </div>
         </div>
         <div className="relative mx-auto w-full min-w-0 max-w-2xl lg:max-w-none">
