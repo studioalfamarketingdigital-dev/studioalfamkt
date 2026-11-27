@@ -35,7 +35,7 @@ const Credentials = () => (
             <div className="flex min-h-36 flex-col items-center justify-center rounded-2xl border border-white/10 bg-black/40 p-5 text-center">
               <div className="flex h-16 w-16 items-center justify-center rounded-full border-2 border-[#a855f7] bg-gradient-to-br from-[#ec4899]/20 to-[#7c3aed]/20 text-center text-[10px] font-black leading-tight text-white">master<br/>globo</div>
               <p className="mt-3 font-extrabold text-white">Mídia Híbrida</p>
-              <p className="mt-1 text-xs text-white/45">Formação Globo</p>
+              <p className="mt-1 text-xs text-white/45">Certificação Mídia Híbrida · Globo</p>
             </div>
           </div>
           <p className="mt-5 text-xs leading-relaxed text-white/40">
