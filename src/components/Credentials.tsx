@@ -19,27 +19,27 @@ const Credentials = () => (
           <div className="flex items-center gap-3">
             <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-primary/15 text-primary"><BadgeCheck size={22} /></span>
             <div>
-              <p className="text-xs font-bold uppercase tracking-[.18em] text-primary">Capacitação profissional</p>
+              <p className="text-xs font-bold uppercase tracking-[.18em] text-primary">Certificações e capacitação</p>
               <h3 className="mt-1 text-xl font-extrabold text-white">Formação em mídia</h3>
             </div>
           </div>
           <p className="mt-4 text-sm leading-relaxed text-white/55">
-            Profissional da S.Alfa MKT com formações concluídas no ecossistema de mídia da Globo.
+            Capacitação profissional em mídia programática e mídia híbrida, com formações realizadas no GAMA e na Globo.
           </p>
           <div className="mt-7 grid gap-4 sm:grid-cols-2">
             <div className="flex min-h-36 flex-col items-center justify-center rounded-2xl border border-white/10 bg-black/40 p-5 text-center">
               <div className="flex h-16 w-16 items-center justify-center rounded-2xl border-2 border-[#ff1682] bg-[#ff1682]/10 text-xl font-black tracking-tight text-[#ff4b9c]">GAMA</div>
               <p className="mt-3 font-extrabold text-white">Ecossistema Programático</p>
-              <p className="mt-1 text-xs text-white/45">Formação concluída</p>
+              <p className="mt-1 text-xs text-white/45">Certificação GAMA</p>
             </div>
             <div className="flex min-h-36 flex-col items-center justify-center rounded-2xl border border-white/10 bg-black/40 p-5 text-center">
               <div className="flex h-16 w-16 items-center justify-center rounded-full border-2 border-[#a855f7] bg-gradient-to-br from-[#ec4899]/20 to-[#7c3aed]/20 text-center text-[10px] font-black leading-tight text-white">master<br/>globo</div>
-              <p className="mt-3 font-extrabold text-white">Mídia Híbrido</p>
-              <p className="mt-1 text-xs text-white/45">Formação concluída · renovada até 2027</p>
+              <p className="mt-3 font-extrabold text-white">Mídia Híbrida</p>
+              <p className="mt-1 text-xs text-white/45">Formação Globo</p>
             </div>
           </div>
           <p className="mt-5 text-xs leading-relaxed text-white/40">
-            Credenciais de formação profissional. Não representam certificação institucional ou credenciamento corporativo da S.Alfa MKT pela Globo.
+            Credenciais de formação profissional individual. Não representam certificação institucional ou credenciamento corporativo da S.Alfa MKT pela Globo.
           </p>
         </article>
 
