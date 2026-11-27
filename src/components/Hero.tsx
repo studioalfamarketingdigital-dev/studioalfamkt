@@ -41,7 +41,7 @@ const Hero = () => (
             <div className="h-10 w-px bg-border" />
             <div><p className="text-3xl font-black tracking-tight text-foreground">360<span className="text-primary">°</span></p><p className="mt-1 text-[10px] font-bold uppercase tracking-[.15em] text-muted-foreground">Visão integrada</p></div>
             <div className="h-10 w-px bg-border" />
-            <div><p className="text-2xl font-black tracking-tight text-foreground">BR <span className="text-primary">+</span> Mundo</p><p className="mt-1 text-[10px] font-bold uppercase tracking-[.15em] text-muted-foreground">Atuação nacional e internacional</p></div>
+            <div><p className="text-2xl font-black tracking-tight text-foreground">GO <span className="text-primary">+</span> DF</p><p className="mt-1 text-[10px] font-bold uppercase tracking-[.15em] text-muted-foreground">Luziânia e Brasília</p></div>
           </div>
         </div>
         <div className="relative mx-auto w-full min-w-0 max-w-2xl lg:max-w-none">
