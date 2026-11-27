@@ -37,7 +37,7 @@ const Hero = () => (
             ))}
           </div>
           <div className="mt-9 flex flex-wrap items-center gap-x-8 gap-y-3">
-            <div><p className="text-3xl font-black tracking-tight text-foreground">7<span className="text-primary">+</span></p><p className="mt-1 text-[10px] font-bold uppercase tracking-[.15em] text-muted-foreground">Anos de atuação</p></div>
+            <div><p className="text-3xl font-black tracking-tight text-foreground">2019</p><p className="mt-1 text-[10px] font-bold uppercase tracking-[.15em] text-muted-foreground">No mercado desde</p></div>
             <div className="h-10 w-px bg-border" />
             <div><p className="text-3xl font-black tracking-tight text-foreground">360<span className="text-primary">°</span></p><p className="mt-1 text-[10px] font-bold uppercase tracking-[.15em] text-muted-foreground">Visão integrada</p></div>
             <div className="h-10 w-px bg-border" />
