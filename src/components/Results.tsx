@@ -4,7 +4,7 @@ const pillars = [
   { icon: Target, value: "Estratégia", label: "Objetivos claros antes de escolher canais e formatos." },
   { icon: Radio, value: "360°", label: "Digital, mídia e publicidade conectados em uma só visão." },
   { icon: Video, value: "Criação", label: "Conteúdo e campanhas com identidade e intenção." },
-  { icon: Clock, value: "7+ anos", label: "Experiência acumulada em comunicação e marketing." },
+  { icon: Clock, value: "Desde 2019", label: "Atuação em comunicação, marketing e publicidade." },
 ];
 
 const Results = () => (
