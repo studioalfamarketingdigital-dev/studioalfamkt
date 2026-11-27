@@ -12,12 +12,12 @@ const Videos = () => (
   <section id="videos" className="py-16 sm:py-20 lg:py-24 bg-background">
     <div className="container mx-auto px-4 sm:px-6">
       <div className="mx-auto mb-10 max-w-3xl text-center sm:mb-12">
-        <span className="text-primary font-semibold uppercase tracking-wider text-xs sm:text-sm">Studio Alfa em vídeo</span>
+        <span className="text-primary font-semibold uppercase tracking-wider text-xs sm:text-sm">Filmes comerciais e produção audiovisual</span>
         <h2 className="mt-4 mb-5 text-3xl font-black leading-tight sm:text-4xl lg:text-5xl">
-          Conheça nosso trabalho <span className="text-gradient">em movimento</span>
+          Conheça nossas produções <span className="text-gradient">em filmes e campanhas</span>
         </h2>
         <p className="text-base leading-relaxed text-muted-foreground sm:text-lg">
-          Campanhas, projetos e conteúdos que mostram como pensamos e executamos comunicação.
+          Filmes comerciais, vídeos publicitários e conteúdos audiovisuais: conheça um pouco da linguagem e da produção da S.Alfa MKT.
         </p>
       </div>
       <div className="mx-auto max-w-5xl">
