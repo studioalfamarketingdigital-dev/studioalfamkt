@@ -25,4 +25,4 @@ npm run build
 
 ## Deploy
 
-Deploy automático via Vercel conectado ao repositório GitHub.
+
